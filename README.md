@@ -1,24 +1,24 @@
-# README
+# IDEA BOARD
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a follow along project using Ruby on Rails API as backend and React as Frontend.
 
-Things you may want to cover:
+Ideaboard-client directory contains the React FrontEnd App
 
-* Ruby version
+## Built With
 
-* System dependencies
+- Ruby v2.6.5
+- Ruby on Rails v6.0.3.2
+- React
 
-* Configuration
 
-* Database creation
+# Authors
 
-* Database initialization
+👤 **Uduak Essien**
 
-* How to run the test suite
+- Github: [@acushlakoncept](https://github.com/acushlakoncept/)
+- Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
+- Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+## Acknowledgments
+- [Sitepoint Article](https://www.sitepoint.com/react-rails-5-1/) on How to Build a React App that Works with a Rails 5.1 API
