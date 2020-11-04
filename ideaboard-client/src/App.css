@@ -13,6 +13,10 @@
   }
 }
 
+.App-intro {
+  font-size: large;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 8vh;
