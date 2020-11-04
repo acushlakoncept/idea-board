@@ -4,6 +4,8 @@ This is a follow along project using Ruby on Rails API as backend and React as F
 
 Ideaboard-client directory contains the React FrontEnd App
 
+![screenshot](./ideaboard.jpg)
+
 ## Built With
 
 - Ruby v2.6.5
