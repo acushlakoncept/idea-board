@@ -18,13 +18,20 @@ class IdeasContainer extends Component {
         .catch(error => console.log(error))
       }
       
-  render() {
-    return (
-      <div>
-        Ideas
-      </div>
-    )
-  }
+      render() {
+        return (
+          <div>
+            {this.state.ideas.map((idea) => {
+              return(
+                <div className="tile" key={idea.id} >
+                  <h4>{idea.title}</h4>
+                  <p>{idea.body}</p>
+                </div>
+              )       
+            })}
+          </div>
+        );
+      }
 }
 
 export default IdeasContainer
