@@ -10,6 +10,22 @@ class IdeasContainer extends Component {
         }
     }
 
+    addNewIdea = () => {
+        axios.post(
+          'http://localhost:3001/api/v1/ideas',
+          { idea:
+            {
+              title: '',
+              body: ''
+            }
+          }
+        )
+        .then(response => {
+          console.log(response)
+        })
+        .catch(error => console.log(error))
+      }
+
     componentDidMount() {
         axios.get('http://localhost:3001/api/v1/ideas.json')
         .then(response => {
@@ -22,7 +38,8 @@ class IdeasContainer extends Component {
       render() {
         return (
           <div>
-            <button className="newIdeaButton">
+            <button className="newIdeaButton"
+                onClick={this.addNewIdea} >
                 New Idea
             </button>
             {this.state.ideas.map((idea) => {
